@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/helper.css" />
+  <link rel="stylesheet" href="css/helper-2.css" />
+  <link rel="stylesheet" href="css/pageloader.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!--<link rel="stylesheet" href="css/debug.css" />-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+  
+  <title>Build and Deploy a Personal Portfolio with BulmaCSS</title>
+</head>
+
+<body class="is-unselectable">
+  <div id="pageloader" class="pageloader"></div>
+  <div id="infraloader" class="infraloader is-active"></div>
+  <section class="hero has-background-black is-fullheight">
+    <div class="hero-head">
+      <nav class="navbar has-background-black is-fixed-top">
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="#" class="navbar-item has-text-white"> Jonathan.doe </a>
+            <a role="button" class="navbar-burger has-background-dark has-text-link" aria-label="menu"
+              aria-expanded="true" id="burger" data-target="nav-links"">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <div id="nav-links" class="navbar-menu has-background-black">
+            <div class="navbar-end has-text-centered">
+              <a class="navbar-item has-text-weight-medium has-text-white mobile-menu">
+                Home
+              </a>
+              <a href="#myskills" class="navbar-item has-text-weight-medium has-text-white mobile-menu">
+                My Skills
+              </a>
+              <a href="#mywork" class="navbar-item has-text-weight-medium has-text-white mobile-menu">
+                My Work
+              </a>
+              <span class="navbar-item">
+                <a href="#contact" class="button is-link is-fullwidth">
+                  <span>Hire me!</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="colunm">
+            <h1 class="title has-text-weight-bold has-text-left is-size-1-mobile" style="color: #fff; font-size: 65px">
+              Building beautiful <br /> web
+              experiences.
+            </h1>
+            <h2 class="subtitle has-text-weight-light has-text-left is-size-6-mobile"
+              style="color: #fff; font-size: 25px">
+              I build design systems and code websites for leaders <br /> and brands all around the world.
+            </h2>
+          </div>
+        </div>
+        
+        <div class="columns">
+          <div class="colunm">
+            <a href="https://github.com/OmbuDev" class="button is-link is-medium mt-2 mb-4">
+              <span class="iconify" data-icon="fe:github"></span>
+              <span>GitHub</span>
+            </a>
+            &nbsp;&nbsp;
+            <a class="button is-success is-medium mt-2 mb-4">
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Why Me -->
+  <div id="myskills" class="pt-6 has-background-black"></div>
+  <section class="section information has-background-black">
+    <div class="container">
+      
+      <div class="columns is-centered">
+        <div class="column has-text-centered is-6 mx-auto">
+          
+          <h2 class="has-text-white">Why use Jonathan?</h2>
+
+          <div class="title-underline"></div>
+
+        </div>
+      </div>
+      <p class="body1 has-text-white has-text-centered">
+        Explore below to see why Jonathan is a perfect, powerful, and knowledgable <br />
+        developer to handle your projects.
+      </p>
+    </div>
+  </section>
+  <section class="section information has-background-black">
+    <div class="container">
+      <div class="columns is-desktop is-centered">
+        <div class="column has-text-right">
+          <!--Skills Cols Starts Here 1 -->
+          <div class="columns is-mobile mt-1">
+            <div class="column">
+              <figure class="image is-96x96">
+                <img src="assets/images/skills/angular.svg" />
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-96x96">
+                <img src="assets/images/skills/bulma.svg" />
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-96x96">
+                <img src="assets/images/skills/css3.svg" />
+              </figure>
+            </div>
+          </div>
+          <!--Skills Cols Starts Here 2 -->
+          <div class="columns is-mobile mt-5">
+            <div class="column">
+              <figure class="image is-96x96">
+                <img src="assets/images/skills/html5.svg" />
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-96x96">
+                <img src="assets/images/skills/js.svg" />
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-96x96">
+                <img src="assets/images/skills/nodejs.svg" />
+              </figure>
+            </div>
+          </div>
+          <!--Skills Cols Starts Here 3 -->
+          <div class="columns is-mobile mt-5">
+            <div class="column">
+              <figure class="image is-96x96">
+                <img src="assets/images/skills/reactjs.svg" />
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-96x96">
+                <img src="assets/images/skills/sass.svg" />
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-96x96">
+                <img src="assets/images/skills/vuejs.svg" />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-half">
+          <h2 class="has-text-white">Developer who builds interfaces, and codes websites.</h2>
+          <p class="body1 has-text-white">
+            I focus on writing semantic HTML5 that talks to both humans and computers. And I know all the CSS3
+            requirments to build responsive mobile-friendly websites. I've built interactive experiences with every
+            cornerstone of the modern web: Vue and simply JS.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!--My Work-->
+  <div id="mywork" class="pt-6 has-background-black"></div>
+  <section class="section has-background-black">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-2">
+          <h1 class="title has-text-white">My Work</h1>
+      <div class="title-underline"></div>
+
+        </div>
+      </div>
+      
+      <div class="columns">
+        <div class="column is-8">
+          <p class="body1 has-text-white">
+
+            I've had the pleasure of working with multiple Fortune 500 companies,
+            designing and implementing both frontend and backend
+          </p>
+      
+
+        </div>
+      </div>
+     
+      <div class="columns mx-0 is-multiline">
+        <div class="column is-10 columns mx-auto mt-6">
+          <figure class="image column is-4 mx-auto" data-aos="fade-up">
+            <img class="standard-radius" src="assets/images/black-green.webp" alt="" />
+            <span class="title has-text-white">Spotify</span>
+          </figure>
+          <figure class="image column is-4 mx-auto" data-aos="fade-down" data-aos-delay="100">
+            <img class="standard-radius" src="assets/images/blue-white.webp" alt="" />
+            <span class="title has-text-white">Twitter</span>
+          </figure>
+          <figure class="figure image column is-4 mx-auto" data-aos="fade-up" data-aos-delay="200">
+            <img class="standard-radius" src="assets/images/pink-black.webp" alt="" />
+            <span class="title has-text-white">Discord</span>
+          </figure>
+        </div>
+        <div class="column is-10 columns mx-auto">
+          <figure class="image column is-4 mx-auto" data-aos="fade-down" data-aos-delay="300">
+            <img class="standard-radius" src="assets/images/red-t.webp" alt="" /><span class="title has-text-white">Tesla</span>
+          </figure>
+          <figure class="image column is-4 mx-auto" data-aos="fade-up" data-aos-delay="400">
+            <img class="standard-radius" src="assets/images/red-white.webp" alt="" /><span
+              class="title has-text-white">YouTube</span>
+          </figure>
+          <figure class="image column is-4 mx-auto" data-aos="fade-down" data-aos-delay="500">
+            <img class="standard-radius" src="assets/images/yellow-white.webp" alt="" /><span
+              class="title has-text-white">Snapchat</span>
+          </figure>
+        </div>
+      </div>
+  </section>
+  <!--My Clients-->
+
+  <div id="contact" class="pt-6 has-background-black"></div>
+  <section class="section has-background-black">
+    <div class="container">
+
+      <div class="columns">
+        <div class="column is-2">
+          <h1 class="title has-text-white">Contact</h1>
+      <div class="title-underline"></div>
+
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-8">
+          <p class="body1 has-text-white">
+            I am eager to hear what you have to say, whether it's a compliment,
+             a suggestion, an enquiry or a complaint.
+          </p>
+      
+
+        </div>
+      </div>
+      
+      
+
+      <div class="columns mt-5">
+        <div class="column">
+          <div class="card has-background-black has-text-white">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4 has-text-white">Address</p>
+                </div>
+              </div>
+
+              <div class="content">
+                13th Street 47 W 13th St,<br />
+                New York, NY 10011, USA.<br /><br />
+                <a>hello@jonathandoe.dev</a><br /><br />
+                <a href="#">https://jonathandoe.dev</a>
+
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column has-background-black-bis px-6 py-6">
+          <h1 class="has-text-grey-light is-size-5 mb-4">
+            Have a question? Feel free to reach out to me.
+          </h1>
+          
+
+          <form class="form" action="">
+            <div class="field">
+              <label class="label">Name</label>
+              <p class="control has-icons-left">
+                <input
+                  class="input is-primary"
+                  type="text"
+                  placeholder="Type your full name"
+                />
+                <span
+                  class="iconify icon is-small is-left p-1"
+                  data-icon="fe:user"
+                ></span>
+              </p>
+            </div>
+            <div class="field">
+              <label class="label">Email</label>
+              <p class="control has-icons-left">
+                <input
+                  class="input is-primary"
+                  type="email"
+                  placeholder="your@email.com"
+                />
+                <span
+                  class="iconify icon is-small is-left p-1"
+                  data-icon="fe:mail"
+                ></span>
+              </p>
+            </div>
+            <div class="field">
+              <label class="label">Message</label>
+              <p class="control has-icons-left">
+                <textarea
+                  class="textarea input is-primary"
+                  placeholder="Type your message here"
+                ></textarea
+                ><span
+                  class="iconify icon is-small is-left p-1"
+                  data-icon="fe:pencil"
+                ></span>
+              </p>
+            </div>
+            <button class="button is-link is-fullwidth is-outlined">Submit</button>
+          </form>
+
+         
+
+        
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Footer-->
+  <footer class="footer footer-left has-background-black">
+    <div class="content has-text-centered has-text-white">
+      <p>
+        &copy;2022 Designed with ❤ by
+        <a href="https://www.onealombu.xyz">O'Neal Ombu</a>. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+<script src="js/script.js"></script>
+<script src="js/bundle.js"></script>
+<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</html>
