@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="css/helper-2.css" />
   <link rel="stylesheet" href="css/pageloader.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <!--<link rel="stylesheet" href="css/debug.css" />-->
+  
   <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
   
-  <title>Build and Deploy a Personal Portfolio with BulmaCSS</title>
+  <title>jonathan.doe</title>
 </head>
 
 <body class="is-unselectable">
@@ -25,8 +25,8 @@
         <div class="container">
           <div class="navbar-brand">
             <a href="#" class="navbar-item has-text-white"> Jonathan.doe </a>
-            <a role="button" class="navbar-burger has-background-dark has-text-link" aria-label="menu"
-              aria-expanded="true" id="burger" data-target="nav-links"">
+            <a role="button" class="navbar-burger is-transparent has-background-dark has-text-link" aria-label="menu"
+              aria-expanded="true" id="burger" data-target="nav-links">
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
@@ -56,7 +56,7 @@
     <div class="hero-body">
       <div class="container">
         <div class="columns">
-          <div class="colunm">
+          <div class="colunm mt-6 pt-6">
             <h1 class="title has-text-weight-bold has-text-left is-size-1-mobile" style="color: #fff; font-size: 65px">
               Building beautiful <br /> web
               experiences.
@@ -65,22 +65,28 @@
               style="color: #fff; font-size: 25px">
               I build design systems and code websites for leaders <br /> and brands all around the world.
             </h2>
+            <div class="columns">
+              <div class="colunm">
+                <a href="https://github.com/OmbuDev" class="button is-link is-medium mt-2 mb-4">
+                  <span class="iconify" data-icon="fe:github"></span>
+                  <span>GitHub</span>
+                </a>
+                &nbsp;&nbsp;
+                <a class="button is-success is-medium mt-2 mb-4">
+                  <span>Resume</span>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="column">
+            <figure class="image is-256x256">
+            <img src="assets/images/illustration.png" alt="" />
+            </figure>
           </div>
         </div>
         
-        <div class="columns">
-          <div class="colunm">
-            <a href="https://github.com/OmbuDev" target="_blank" class="button is-link is-medium mt-2 mb-4">
-              <span class="iconify" data-icon="fe:github"></span>
-              <span>GitHub</span>
-            </a>
-            &nbsp;&nbsp;
-            <a class="button is-success is-medium mt-2 mb-4">
-                                                            <span class="iconify" data-icon="akar-icons:paper"></span>
-              <span>Resume</span>
-            </a>
-          </div>
-        </div>
+     
       </div>
     </div>
   </section>
@@ -291,6 +297,10 @@
                   type="text"
                   placeholder="Type your full name"
                 />
+                <span
+                  class="iconify icon is-small is-left p-1"
+                  data-icon="fe:user"
+                ></span>
               </p>
             </div>
             <div class="field">
@@ -301,7 +311,10 @@
                   type="email"
                   placeholder="your@email.com"
                 />
-                
+                <span
+                  class="iconify icon is-small is-left p-1"
+                  data-icon="fe:mail"
+                ></span>
               </p>
             </div>
             <div class="field">
@@ -311,7 +324,10 @@
                   class="textarea input is-primary"
                   placeholder="Type your message here"
                 ></textarea
-                >
+                ><span
+                  class="iconify icon is-small is-left p-1"
+                  data-icon="fe:pencil"
+                ></span>
               </p>
             </div>
             <button class="button is-link is-fullwidth is-outlined">Submit</button>
